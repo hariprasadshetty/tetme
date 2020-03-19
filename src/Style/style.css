@@ -1,0 +1,103 @@
+body {
+    background-color: chocolate;
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+.headerStyle{
+    padding: 1rem;
+    border-bottom: solid 1px;
+}
+
+.headerStyle h2,
+.headerStyle h5 {
+    position: relative !important;
+    text-align: center !important;
+}
+
+.headerStyle span {
+    text-align: right;
+}
+
+.menuStyle {
+    padding: 1rem;
+    text-align: center;
+}
+
+.containerStyle {
+    padding-top: 10px;
+    color: coral;
+}
+
+.containerBody {
+    height:28rem;
+    overflow-y: scroll;
+}
+
+.menubar .list-group-item,
+.containerStyle .containerBody {
+    background-color: khaki;
+    border-radius: 10px;
+}
+
+.menubar .list-group-item{
+    border-radius: 22px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.filmCard{
+    padding: 1rem;
+    margin-bottom: 10px;
+    color: black;
+    line-height: 18px;
+    border-bottom: solid 1px;
+}
+
+.filmCard button {
+    margin: 10px;
+    border-radius: 18px;
+    background-color: #d2691e !important;
+    border-color: #d2691e !important;
+}
+
+.filmCard button:hover{
+    background-color: #d2691e !important;
+    border-color: white !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: khaki;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a {
+    color: black !important;
+}
+
+.serachInput {
+    width: 100%;
+    border: none;
+    background-color: #f0e68cb3;
+    border-radius: 8px;
+}
+
+.filmModalClass .modal-content {
+    background-color: #f0e68cb3;
+    width: 144%;
+}
+
+.modal-footer button {
+    background: #d2691e !important;
+}
